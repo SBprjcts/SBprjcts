@@ -46,3 +46,9 @@ Two of my three main projects report **honest negatives** as the finding, one of
 Currently available for ML and SWE roles.
 
 [Portfolio](https://sbprjcts.github.io/PortfolioWebsite/) · [LinkedIn](https://linkedin.com/in/saif-buheis) · [saif.buheis@gmail.com](mailto:saif.buheis@gmail.com)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SBprjcts/SBprjcts/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SBprjcts/SBprjcts/output/snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/SBprjcts/SBprjcts/output/snake.svg" />
+</picture>
