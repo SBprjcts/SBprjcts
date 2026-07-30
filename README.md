@@ -2,21 +2,21 @@
 
 **ML research scientist. I build models that survive the tests built to break them.**
 
-Applied machine learning for public-safety and epidemiological decision-making at the University of Toronto, under Dr. Jenny Cui. HBSc in Computer Science, Geospatial Data Science, and Mathematics — Class of 2026, Toronto.
+Applied machine learning for public-safety and epidemiological decision-making at the University of Toronto, under Dr. Jenny Cui. HBSc in Computer Science, Geospatial Data Science, and Mathematics. Class of 2026, Toronto.
 
-Most of my work is on messy public data: epidemic forecasting, fire risk, emergency response. What I care about isn't benchmark-topping numbers — it's validation discipline. Verifying a premise before building on it, and designing evaluations that actively try to break my own claims.
+Most of my work is on messy public data: epidemic forecasting, fire risk, emergency response. What I care about isn't benchmark-topping numbers. It's validation discipline: verifying a premise before building on it, and designing evaluations that actively try to break my own claims.
 
 ---
 
 ### Research
 
-**Physics-informed ST-GNN for COVID-19 forecasting** — graph neural network with compartmental disease mechanics embedded directly in the network, so the learned internals stay epidemiologically interpretable. Beats a persistence baseline by 5.1% MAE at two weeks and 8.8% at four, transfers zero-shot to held-out states, and independently recovers the ~48% Omicron severity drop reported in the literature.
+**Physics-informed ST-GNN for COVID-19 forecasting**. A graph neural network with compartmental disease mechanics embedded directly in the network, so the learned internals stay epidemiologically interpretable. Beats a persistence baseline by 5.1% MAE at two weeks and 8.8% at four, transfers zero-shot to held-out states, and independently recovers the ~48% Omicron severity drop reported in the literature.
 
-**Toronto fire risk** — six public datasets on an H3 hex grid behind a four-rung spatio-temporal validation ladder. The finding is a measurement, not a score: roughly half the discriminable fire-severity signal exists only *after* an investigator's report, not at dispatch. My own leakage guards caught two real bugs, one of which flipped a conclusion.
+**Toronto fire risk**. Six public datasets on an H3 hex grid behind a four-rung spatio-temporal validation ladder. The finding is a measurement, not a score: roughly half the discriminable fire-severity signal exists only *after* an investigator's report, not at dispatch. My own leakage guards caught two real bugs, one of which flipped a conclusion.
 
-**Emergency response delay prediction** — ~1.75M Toronto incidents (2012–2024), fusing incident logs, road network, weather, and area-level socio-economic data. Found silent data corruption in 36% of rows, where privacy-suppressed coordinates stored as zeros were poisoning a core feature and passing every median-based sanity check.
+**Emergency response delay prediction**. Roughly 1.75M Toronto incidents (2012–2024), fusing incident logs, road network, weather, and area-level socio-economic data. Found silent data corruption in 36% of rows, where privacy-suppressed coordinates stored as zeros were poisoning a core feature and passing every median-based sanity check.
 
-Two of my three main projects report **honest negatives** as the finding — one after six independent tests failed to beat a one-line baseline. Knowing when to kill a direction is the part I'd defend hardest.
+Two of my three main projects report **honest negatives** as the finding, one of them after six independent tests failed to beat a one-line baseline. Knowing when to kill a direction is the part I'd defend hardest.
 
 ---
 
